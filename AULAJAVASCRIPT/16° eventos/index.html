@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="carregaAviso()">
+    <h2>HTML EVENTOS</h2>
+    <h2 onclick="this.innerHTML = 'Ooops !'">clique nesse texto !!</h2>
+    <h2>HTML eventos com função</h2>
+    <p onclick="mudar()" id="abc">te amo bb porra</p>
+
+    <p>clique no botão abaixo para saber a data de hoje</p>
+    <button onclick="Data()">que dia é hoje?</button>
+    <p id="demo"></p>
+
+    <p onmouseover="mudardefrase()" id="obj" style="width: 120px;" onmouseout="VoltarAFrase()">passe o mouse aqui!</p>
+    <script src="script.js"></script>
+</body>
+</html>

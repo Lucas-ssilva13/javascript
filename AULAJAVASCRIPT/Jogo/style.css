@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(175, 217, 254);
+}
+
+label{
+    font-weight: bold;
+}
+button{
+    background-color: rgb(94, 131, 148) ;
+}

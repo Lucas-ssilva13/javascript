@@ -1,0 +1,17 @@
+body{
+    background-color: #45cdff;
+background-image: linear-gradient(225deg, #45cdff 0%, #0f25a2 15%, #752929 44%, #0f25a2 62%, #45cdff 73%, #752929 86%);
+
+    text-align: center;
+}
+button{
+    background-color:#0F25A2;
+    width: 70px;
+    height: 60px;
+}
+input{
+    background-color: #9FACE6;
+    text-align: center;
+    width: 70px;
+    height: 60px;
+}
